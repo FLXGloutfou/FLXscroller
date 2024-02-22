@@ -313,9 +313,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070c9efee12b4a7449203e2338b8615a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
+  health: 6
+  maxHealth: 6
   healthText: {fileID: 1385376625}
+  healthBar: {fileID: 1256839033}
+  healthbar_1: {fileID: 67559029, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  healthbar_2: {fileID: -1597802351, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  healthbar_3: {fileID: -1339457965, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  healthbar_4: {fileID: 1610728821, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  healthbar_5: {fileID: -498176128, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  healthbar_6: {fileID: -1566973511, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
 --- !u!1 &767510408
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde4f66cda4ca594da92afeb0fdabbc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 10
+  damageAmount: 1
 --- !u!61 &767510412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -645,14 +652,14 @@ RectTransform:
   m_GameObject: {fileID: 1256839031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.88, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1449498659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 94.2, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256839033
@@ -675,7 +682,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
+  m_Sprite: {fileID: 67559029, guid: f00beb0561854fe4db1c210beaf91df0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -725,9 +732,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1449498659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1921, y: -112}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1385376625
@@ -997,7 +1004,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 0}
   healthBar: {fileID: 0}
+  healthImage: {fileID: 0}
   scriptJoueur: {fileID: 0}
+  healthSprites: []
 --- !u!1 &1485796068
 GameObject:
   m_ObjectHideFlags: 0

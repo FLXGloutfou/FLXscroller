@@ -5,7 +5,7 @@ using UnityEngine;
 public class pique : MonoBehaviour
 {
     // Dans le script de l'ennemi
-    public int damageAmount = 10;
+    public int damageAmount = 1;
 
     void OnCollisionEnter2D(Collision2D collision)
     {

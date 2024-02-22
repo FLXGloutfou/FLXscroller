@@ -5,9 +5,19 @@ using UnityEngine.UI;
 
 public class joueur : MonoBehaviour
 {
-    public int health = 100;
-    public int maxHealth = 100;
+    public int health = 6;
+    public int maxHealth = 6;
     public Text healthText;
+
+    public Image healthBar;
+
+    public Sprite healthbar_1;
+    public Sprite healthbar_2;
+    public Sprite healthbar_3;
+    public Sprite healthbar_4;
+    public Sprite healthbar_5;
+    public Sprite healthbar_6;
+
 
     void Start()
     {
@@ -22,10 +32,31 @@ public class joueur : MonoBehaviour
         {
             Die();
         }
-        else
-        {
-            // Actions supplémentaires lors de la réception de dégâts
+        else if (health  == 6) 
+        { 
+            healthBar.sprite = healthbar_1;
         }
+        else if (health == 5)
+        {
+            healthBar.sprite = healthbar_2;
+        }
+        else if (health == 4)
+        {
+            healthBar.sprite = healthbar_3;
+        }
+        else if (health == 3)
+        {
+            healthBar.sprite = healthbar_4;
+        }
+        else if (health == 2)
+        {
+            healthBar.sprite = healthbar_5;
+        }
+        else if (health == 1)
+        {
+            healthBar.sprite = healthbar_6;
+        }
+
 
         UpdateHealthUI(health, maxHealth);
     }
