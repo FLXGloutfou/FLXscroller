@@ -11,20 +11,29 @@ public class move : MonoBehaviour
     private int sautsRestants = 2;
     private Rigidbody2D rb;
 
+    private Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        // Mise à jour de la position de solCheck pour suivre le personnage
         solCheck.position = new Vector3(transform.position.x, transform.position.y - 1.2f, transform.position.z);
-
         estAuSol = Physics2D.OverlapCircle(solCheck.position, 0.1f, solLayer);
 
         Deplacement();
         Saut();
+        Debug.Log(Mathf.Abs(rb.velocity.x));
+        // Envoyer la vitesse à l'Animator
+        float characterVelocity = Mathf.Abs(rb.velocity.x);
+        animator.SetFloat("speed",characterVelocity);
+    }
+    private void FixedUpdate()
+    {
+        
     }
     void Deplacement()
     {
@@ -32,7 +41,6 @@ public class move : MonoBehaviour
         Vector2 deplacement = new Vector2(deplacementHorizontal, 0);
         transform.Translate(deplacement * vitesseDeplacement * Time.deltaTime);
 
-        // Change la direction du personnage en fonction de la direction du déplacement
         if (deplacementHorizontal > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
@@ -47,13 +55,11 @@ public class move : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && (estAuSol || sautsRestants > 0))
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0); // Réinitialise la vitesse verticale
-
+            rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * forceSaut, ForceMode2D.Impulse);
             sautsRestants--;
         }
 
-        // Reset le nombre de sauts disponibles lorsque le personnage touche le sol
         if (estAuSol)
         {
             sautsRestants = 1;
