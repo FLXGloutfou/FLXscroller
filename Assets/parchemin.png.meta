@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f00beb0561854fe4db1c210beaf91df0
+guid: 167bdeec1f5c33146b2c616fdb09adad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 467, y: 1761, z: 956, w: 327}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PDV_0
+      name: parchemin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 653.3334
-        width: 653.5
-        height: 326.66666
+        x: 485
+        y: 1770
+        width: 174
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,113 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a0dcd7dc76af3c488e48c205f0fdde4
-      internalID: 67559029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PDV_1
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 653.3334
-        width: 653.5
-        height: 326.66666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 931364c56c4d5484680cf9628bcde9c3
-      internalID: 1610728821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PDV_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 327.33334
-        width: 653.5
-        height: 326.66666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0f4bb5ff1bb8674bb01a76de7c6383e
-      internalID: -1597802351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PDV_3
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 327.33334
-        width: 653.5
-        height: 326.66666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b297a3d13d4f0742b1e2c51b3f02c61
-      internalID: -498176128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PDV_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1.3333435
-        width: 653.5
-        height: 326.66666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85cc534fec011364b80a35382e0241b9
-      internalID: -1339457965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PDV_5
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 1.3333435
-        width: 653.5
-        height: 326.66666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dce80985cf11e947a3269d4486b38e7
-      internalID: -1566973511
+      spriteID: 1d9fcbde75b7a604ea82d3cb86a1e349
+      internalID: -385183468
       vertices: []
       indices: 
       edges: []
@@ -239,19 +134,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PDV_0: 67559029
-      PDV_1: 1610728821
-      PDV_2: -1597802351
-      PDV_3: -498176128
-      PDV_4: -1339457965
-      PDV_5: -1566973511
+      parchemin_0: -385183468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

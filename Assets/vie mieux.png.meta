@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 73f7673daa9735048a72d2d518c63431
+guid: cbc30edfb90649f48914b159264076a6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 342.1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vie mieux_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2124
+        width: 1640
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b473f9d3388a54eb5a4926bf926672
+      internalID: -97530954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vie mieux_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1888
+        width: 1640
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44c35f795e4f7043aba324f0d8abd6c
+      internalID: 832290733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vie mieux_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1652
+        width: 1640
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43897d0cb993a0445a20fd192f5944dd
+      internalID: 778329068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vie mieux_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1416
+        width: 1640
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09637fff14d4bab488d71cd3a2deffab
+      internalID: 1626757243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vie mieux_0: -97530954
+      vie mieux_1: 832290733
+      vie mieux_2: 778329068
+      vie mieux_3: 1626757243
+      vie mieux_4: -549412574
+      vie mieux_5: -1191330629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
