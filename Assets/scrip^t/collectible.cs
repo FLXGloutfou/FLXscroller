@@ -12,7 +12,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Le joueur a collecté l'objet, vous pouvez ajouter ici toute logique supplémentaire
+            // Le joueur a collecté l'objet
             Collect();
         }
     }
@@ -20,7 +20,7 @@ public class Collectible : MonoBehaviour
     void Collect()
     {
       
-        // Informez l'UI de la collecte en déclenchant l'événement
+        
         OnCollect?.Invoke(points);
     
         Destroy(gameObject);

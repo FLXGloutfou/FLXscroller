@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Cam : MonoBehaviour
 {
-    public Transform target; // Référence au transform du personnage à suivre
-    public float smoothSpeed = 0.125f; // Vitesse de suivi de la caméra
+    public Transform target; 
+    public float smoothSpeed = 0.125f; 
 
     void LateUpdate()
     {

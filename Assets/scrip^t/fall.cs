@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pique : MonoBehaviour
+public class fall : MonoBehaviour
 {
-    
-    public int damageAmount = 1;
+
+    public int damageAmount = 3;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+
             collision.gameObject.GetComponent<joueur>().TakeDamage(damageAmount);
         }
     }

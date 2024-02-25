@@ -21,7 +21,7 @@ public class Uivie : MonoBehaviour
         Collectible.OnCollect -= HandleCollectEvent;
     }
 
-    //mettre à jour l'UI avec les points de vie
+    
     public void UpdateHealthUI(int currentHealth, int maxHealth)
     {
         float healthPercentage = (float)currentHealth / maxHealth;
